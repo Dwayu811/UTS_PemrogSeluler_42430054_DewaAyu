@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="hint_nama">Masukkan Nama Dosen</string>
+    <string name="default_nama">Dosen</string>
+</resources>
