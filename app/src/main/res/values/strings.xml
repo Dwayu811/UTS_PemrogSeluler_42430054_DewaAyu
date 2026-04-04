@@ -2,4 +2,18 @@
     <string name="app_name">UTS</string>
     <string name="hint_nama">Masukkan Nama Dosen</string>
     <string name="default_nama">Dosen</string>
+    <string name="title_generator">Generator Nilai</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_nama_mahasiswa">Masukkan Nama Mahasiswa</string>
+    <string name="hint_nilai">Masukkan Nilai (0-100)</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_reset">Reset</string>
+    <string name="error_empty_name">Nama tidak boleh kosong</string>
+    <string name="error_empty_mahasiswa">Nama mahasiswa tidak boleh kosong</string>
+    <string name="error_invalid_nilai">Masukkan nilai antara 0 - 100</string>
+    <string name="label_dosen">Dosen: %1$s</string>
+    <string name="status_lulus">LULUS</string>
+    <string name="status_tidak_lulus">TIDAK LULUS</string>
+    <string name="grade_label">Indeks: %1$s</string>
+    <string name="hasil_format">HASIL GENERATOR\n------------------\nStatus: %1$s\nIndeks: %2$s\nMahasiswa: %3$s\nNilai: %4$d</string>
 </resources>
