@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:paddingTop="?attr/actionBarSize">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,64 +28,72 @@
             android:layout_height="wrap_content"
             android:hint="Nama Mahasiswa"
             android:inputType="textPersonName"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="12dp"/>
 
-        <!-- Input Nilai -->
+        <!-- Input Nilai (kasih jarak bawah semua) -->
         <EditText
             android:id="@+id/etNilai1"
             android:hint="Nilai 1"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai2"
             android:hint="Nilai 2"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai3"
             android:hint="Nilai 3"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai4"
             android:hint="Nilai 4"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai5"
             android:hint="Nilai 5"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai6"
             android:hint="Nilai 6"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai7"
             android:hint="Nilai 7"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
 
         <EditText
             android:id="@+id/etNilai8"
             android:hint="Nilai 8"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
 
         <!-- Tombol -->
         <Button
@@ -91,9 +101,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Proses Nilai"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="12dp" />
 
-        <!-- Judul Hasil -->
+        <!-- Judul -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -102,16 +112,18 @@
             android:textSize="16sp"
             android:layout_marginTop="20dp" />
 
-        <!-- Output hasil (FOR LOOP tampil di sini) -->
+        <!-- Output -->
         <TextView
             android:id="@+id/tvHasil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minHeight="150dp"
             android:layout_marginTop="8dp"
             android:background="#EEEEEE"
             android:padding="16dp"
             android:textSize="14sp"
-            android:lineSpacingExtra="6dp" />
+            android:lineSpacingExtra="6dp"
+            android:gravity="top|start"/>
 
     </LinearLayout>
 </ScrollView>
