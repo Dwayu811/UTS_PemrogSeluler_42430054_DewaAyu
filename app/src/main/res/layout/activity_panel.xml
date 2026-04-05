@@ -30,7 +30,7 @@
             android:inputType="textPersonName"
             android:layout_marginBottom="12dp"/>
 
-        <!-- Input Nilai (kasih jarak bawah semua) -->
+        <!-- Input Nilai -->
         <EditText
             android:id="@+id/etNilai1"
             android:hint="Nilai 1"
